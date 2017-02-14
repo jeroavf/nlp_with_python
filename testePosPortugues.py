@@ -3,7 +3,9 @@ import nltk
 from nltk.corpus import mac_morpho
 
 
-texto="Joao da Silva foi a feira de manhã. Ao chegar na feira encontrou com seu amigo Pedro. Os dois trocaram informações acerca da nova ponte."
+texto="Joao da Silva foi a feira de manhã. "
+texto = texto + "Ao chegar na feira encontrou com seu amigo Pedro. "
+texto = texto + "Os dois trocaram informações acerca da nova ponte."
 print("0")
 macMorpho = nltk.corpus.mac_morpho.tagged_sents()
 print("1")
